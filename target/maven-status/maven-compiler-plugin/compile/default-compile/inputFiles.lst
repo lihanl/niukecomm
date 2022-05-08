@@ -1,0 +1,15 @@
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/dao/AlphaDaoMyBatisImpl.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/CommunityApplication.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/entity/User.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/service/DiscussPostService.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/entity/DiscussPost.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/controller/AlphaController.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/dao/DiscussPostMapper.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/dao/AlphaDaoHibernateImpl.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/service/UserService.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/service/AlphaService.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/config/AlphaConfig.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/dao/UserMapper.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/controller/HomeController.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/dao/AlphaDao.java
+/Users/liulihan/Desktop/牛客社区/community/src/main/java/com/nowcoder/community/entity/Page.java
