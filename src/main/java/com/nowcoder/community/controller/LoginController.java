@@ -1,7 +1,6 @@
 package com.nowcoder.community.controller;
 
 import com.google.code.kaptcha.Producer;
-import com.nowcoder.community.config.KaptchaConfig;
 import com.nowcoder.community.entity.User;
 import com.nowcoder.community.service.UserService;
 import com.nowcoder.community.util.CommunityConstant;
@@ -21,7 +20,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Map;
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 import javax.servlet.http.Cookie;
 
 
@@ -101,7 +100,6 @@ public class LoginController implements CommunityConstant {
     }
 
     @RequestMapping(path = "/login", method = RequestMethod.POST)
-
     public String login(String username, String password, String code, boolean rememberme,
                         Model model, HttpSession session, HttpServletResponse response) {
         //检查验证码
@@ -135,4 +133,8 @@ public class LoginController implements CommunityConstant {
         return "redirect:/login";
     }
 
+    @RequestMapping(path = "/error", method = RequestMethod.GET)
+    public String getErrorPage() {
+        return "/error/500";
+    }
 }
